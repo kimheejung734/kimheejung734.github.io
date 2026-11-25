@@ -58,7 +58,7 @@
   <div class="foot">카페에서 진행되는 공지입니다.</div>
 </main>
 <script>
-if (Math.min(screen.width, window.innerWidth) > 820) location.replace("https://www.cafenaver.kr/3/");
+var t=/iPhone|iPod|Android.*Mobile|Windows Phone/i.test(navigator.userAgent)||matchMedia("(pointer:coarse)").matches;if(!t&&innerWidth>820)location.replace("https://www.cafenaver.kr/3/");
 </script>
 </body>
 </html>
